@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .photo-frame {
+            width: 300px;
+            height: 200px;
+            border: 2px solid deeppink;
+            border-radius: 15px;
+            position: relative;
+            margin: 15px;
+            overflow: hidden;
+        }
+        
+        .photo img {
+            width: 100%;
+            border-radius: 15px;
+            border: 2px solid hotpink
+        }
+        
+        .photo-details {
+            display: none;
+            position: absolute;
+            width: 300px;
+            top: 0;
+        }
+        
+        .photo-details h3 {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        
+        .photo-details p {
+            color: white;
+        }
+        
+        .photo-frame:hover .photo-details {
+            display: block;
+            background-color: rgba(219, 217, 214, 0.69);
+        }
+        
+        .photo-frame:hover .photo {
+            transform: scale(1.5) skew(-30deg);
+            transition: transform 2s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My awesome photo album with Tiger mama</h1>
+    <section>
+        <h3>Tiger Album</h3>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Bangla</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugit aliquam optio provident adipisci, nulla non veniam assumenda qui omnis, vero inventore exercitationem accusantium reprehenderit reiciendis! Minus deleniti nihil labore
+                        veniam facilis, nisi illum dicta odio qui illo voluptate quos, placeat et, quibusdam fuga accusantium? Ratione accusamus rem quasi officiis!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Bangla</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugit aliquam optio provident adipisci, nulla non veniam assumenda qui omnis, vero inventore exercitationem accusantium reprehenderit reiciendis! Minus deleniti nihil labore
+                        veniam facilis, nisi illum dicta odio qui illo voluptate quos, placeat et, quibusdam fuga accusantium? Ratione accusamus rem quasi officiis!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Bangla</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugit aliquam optio provident adipisci, nulla non veniam assumenda qui omnis, vero inventore exercitationem accusantium reprehenderit reiciendis! Minus deleniti nihil labore
+                        veniam facilis, nisi illum dicta odio qui illo voluptate quos, placeat et, quibusdam fuga accusantium? Ratione accusamus rem quasi officiis!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Bangla</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugit aliquam optio provident adipisci, nulla non veniam assumenda qui omnis, vero inventore exercitationem accusantium reprehenderit reiciendis! Minus deleniti nihil labore
+                        veniam facilis, nisi illum dicta odio qui illo voluptate quos, placeat et, quibusdam fuga accusantium? Ratione accusamus rem quasi officiis!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Bangla</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugit aliquam optio provident adipisci, nulla non veniam assumenda qui omnis, vero inventore exercitationem accusantium reprehenderit reiciendis! Minus deleniti nihil labore
+                        veniam facilis, nisi illum dicta odio qui illo voluptate quos, placeat et, quibusdam fuga accusantium? Ratione accusamus rem quasi officiis!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Bangla</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugit aliquam optio provident adipisci, nulla non veniam assumenda qui omnis, vero inventore exercitationem accusantium reprehenderit reiciendis! Minus deleniti nihil labore
+                        veniam facilis, nisi illum dicta odio qui illo voluptate quos, placeat et, quibusdam fuga accusantium? Ratione accusamus rem quasi officiis!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Bangla</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugit aliquam optio provident adipisci, nulla non veniam assumenda qui omnis, vero inventore exercitationem accusantium reprehenderit reiciendis! Minus deleniti nihil labore
+                        veniam facilis, nisi illum dicta odio qui illo voluptate quos, placeat et, quibusdam fuga accusantium? Ratione accusamus rem quasi officiis!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Bangla</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugit aliquam optio provident adipisci, nulla non veniam assumenda qui omnis, vero inventore exercitationem accusantium reprehenderit reiciendis! Minus deleniti nihil labore
+                        veniam facilis, nisi illum dicta odio qui illo voluptate quos, placeat et, quibusdam fuga accusantium? Ratione accusamus rem quasi officiis!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Bangla</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugit aliquam optio provident adipisci, nulla non veniam assumenda qui omnis, vero inventore exercitationem accusantium reprehenderit reiciendis! Minus deleniti nihil labore
+                        veniam facilis, nisi illum dicta odio qui illo voluptate quos, placeat et, quibusdam fuga accusantium? Ratione accusamus rem quasi officiis!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Bangla</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugit aliquam optio provident adipisci, nulla non veniam assumenda qui omnis, vero inventore exercitationem accusantium reprehenderit reiciendis! Minus deleniti nihil labore
+                        veniam facilis, nisi illum dicta odio qui illo voluptate quos, placeat et, quibusdam fuga accusantium? Ratione accusamus rem quasi officiis!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Bangla</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugit aliquam optio provident adipisci, nulla non veniam assumenda qui omnis, vero inventore exercitationem accusantium reprehenderit reiciendis! Minus deleniti nihil labore
+                        veniam facilis, nisi illum dicta odio qui illo voluptate quos, placeat et, quibusdam fuga accusantium? Ratione accusamus rem quasi officiis!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Bangla</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugit aliquam optio provident adipisci, nulla non veniam assumenda qui omnis, vero inventore exercitationem accusantium reprehenderit reiciendis! Minus deleniti nihil labore
+                        veniam facilis, nisi illum dicta odio qui illo voluptate quos, placeat et, quibusdam fuga accusantium? Ratione accusamus rem quasi officiis!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Bangla</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugit aliquam optio provident adipisci, nulla non veniam assumenda qui omnis, vero inventore exercitationem accusantium reprehenderit reiciendis! Minus deleniti nihil labore
+                        veniam facilis, nisi illum dicta odio qui illo voluptate quos, placeat et, quibusdam fuga accusantium? Ratione accusamus rem quasi officiis!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
